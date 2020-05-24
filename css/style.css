@@ -1,0 +1,694 @@
+@import'utility.css';
+.flex{
+    display: flex;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family:sans-serif;
+    background-image: url('../1.jpg');
+    font-family: 'poppins',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.item-center{
+    align-items: center;
+}
+.heading{
+    border-bottom: 1px solid white;
+    
+}
+.logo{
+    height:3rem ;
+    width:50%;
+    padding: 15px;
+}
+.logo p{
+    font-size: 15px;
+    margin-top: 2rem;
+    letter-spacing: 10px;
+    color: white;
+}
+.logo h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 0;
+    color: white;
+}
+.sign{
+    float: right;
+    padding-left: 15rem;
+    width: 50%;
+    color: white;
+   
+}
+.sign a{
+    margin-left: 3rem;
+    color: white;
+}
+.online_shop{
+    margin-left: 2rem;
+    width: 50%;
+}
+.online_shop h5{
+    letter-spacing: 10px;
+    margin-top: -0.5rem;
+    font-weight: 100;
+    color: white;
+}
+.nav{
+    width: 100%;
+    height: 2.5rem;
+    border:1px solid #83f52c;
+    padding-top: 1rem;
+    background-color: #83f52c;
+}
+.nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 2rem ;
+    margin-top: 1rem;
+    
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: white;
+}
+.nav a:hover{
+    color:#F7347A ;
+}
+.hero{
+ 
+    width:100%;
+    margin-left: 2rem;
+
+}
+
+.hero .text h1{
+    color: #F7347A;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+.hero .text h2{
+    color: white;
+    font-size: 1.75rem;
+    margin-top: -2rem;
+    letter-spacing: 7px;
+}
+.hero .slider img{
+    height: 250px;
+    width: 250px;
+    transition: 0.3s;
+    animation: fade 20s infinite;
+    overflow: hidden;
+   -webkit-animation: fade 20s infinite;
+   -moz-animation: fade 20s infinite;
+   position: relative;
+}
+@keyframes fade{
+    
+    10%{background-image: url('../4.jpg');}
+    20%{background-image: url('../js1.jpg');}
+    30%{background-image: url('../js2.jpg');}
+    40%{background-image: url('../js3.jpg');}
+    50%{background-image: url('../bb1.jpg');}
+    60%{background-image: url('../bb2.jpg');}
+    70%{background-image: url('../bs1.jpg');}
+    80%{background-image: url('../jp1.jpg');}
+    90%{background-image: url('../jp4.jpg');}
+    100%{background-image: url('../bs2.jpg');}
+}
+
+.containor .im1 img{
+    box-sizing: border-box;
+    width: 263px;
+    height: 263px;
+    z-index: 1;
+    margin-left: 4rem;
+    transition: 0.3s;
+} 
+.containor .im1 button a{
+    text-decoration: none;
+    color: #F7347A;
+}
+.containor .im1 button a:hover{
+    color: white;
+}
+.containor .im1 .para{
+    width: 500px;height: 263px;background: #333;
+    color: #F7347A;
+
+    padding-top: 0rem;
+    padding-left: 2rem;
+
+}
+.containor .im1 .para h2{
+    font-size: 1.5rem;
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+   
+    
+}
+.containor .im2 button a{
+    text-decoration: none;
+    color: #F7347A;
+}
+.containor .im2 button a:hover{
+    color: white;
+}
+.containor .im1 .para p{
+    font-size: medium;
+    position: relative;
+   
+}
+.containor .im2 img{
+    box-sizing: border-box;
+    width: 322px;
+    height: 322px;
+    z-index: 1;
+    margin-left: 4rem;
+    transition: 0.3s;
+
+} 
+
+.containor .im2 .para2{
+    width: 500px;height: 322px;background: #333;
+    color: #F7347A;
+
+    padding-top: 0rem;
+    padding-left: 2rem;
+
+}
+.containor .im2 .para2 h2{
+    font-size: 1.5rem;
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+   
+    
+}
+.containor .im2 .para2 p{
+    font-size: medium;
+    position: relative;
+   
+}
+
+.containor .im3 button a{
+    text-decoration: none;
+    color: #F7347A;
+}
+.containor .im3 button a:hover{
+    color: white;
+}
+.containor .im3 img{
+    box-sizing: border-box;
+    width: 322px;
+    height: 322px;
+    z-index: 1;
+    margin-left: 4rem;
+    transition: 0.3s;
+
+} 
+
+.containor .im3 .para3{
+    width: 500px;height: 322px;background: #333;
+    color: #F7347A;
+
+    padding-top: 0rem;
+    padding-left: 2rem;
+
+}
+.containor .im3 .para3 h2{
+    font-size: 1.5rem;
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+   
+    
+}
+.containor .im3 .para3 p{
+    font-size: medium;
+    position: relative;
+   
+}
+.containor .im4 button a{
+    text-decoration: none;
+    color: #F7347A;
+}
+.containor .im4 button a:hover{
+    color: white;
+}
+.containor .im4 img{
+    box-sizing: border-box;
+    width: 322px;
+    height: 322px;
+    z-index: 1;
+    margin-left: 4rem;
+    transition: 0.3s;
+
+} 
+
+.containor .im4 .para4{
+    width: 500px;height: 322px;background: #333;
+    color: #F7347A;
+
+    padding-top: 0rem;
+    padding-left: 2rem;
+
+}
+.containor .im4 .para4 h2{
+    font-size: 1.5rem;
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+   
+    
+}
+.containor .im4 .para4 p{
+    font-size: medium;
+    position: relative;
+   
+}
+.containor .im5 img{
+    box-sizing: border-box;
+    width: 220px;
+    height: 265px;
+    z-index: 1;
+    margin-left: 4rem;
+    transition: 0.3s;
+
+} 
+
+.containor .im5 .para5{
+    width: 500px;height: 265px;background: #333;
+    color: #F7347A;
+
+    padding-top: 0rem;
+    padding-left: 2rem;
+
+}
+.containor .im5 .para5 h2{
+    font-size: 1.5rem;
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+   
+    
+}
+.containor .im5 .para5 p{
+    font-size: medium;
+    position: relative;
+   
+}
+.containor .im6 button a{
+    text-decoration: none;
+    color: #F7347A;
+}
+.containor .im6 button a:hover{
+    color: white;
+}
+.containor .im6 img{
+    box-sizing: border-box;
+    width: 220px;
+    height: 265px;
+    z-index: 1;
+    margin-left: 4rem;
+    transition: 0.3s;
+
+} 
+
+.containor .im6 .para6{
+    width: 500px;height: 265px;background: #333;
+    color: #F7347A;
+
+    padding-top: 0rem;
+    padding-left: 2rem;
+
+}
+.containor .im6 .para6 h2{
+    font-size: 1.5rem;
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+   
+    
+}
+.containor .im6 .para6 p{
+    font-size: medium;
+    position: relative;
+   
+}
+.raw_1{
+    margin: 0 0 ;
+    padding: 0 0 ;
+}
+.raw_1 img{
+    margin-left: 4rem;
+    margin-top: 4rem;
+    transition: 0.3s;
+}
+.raw_1 img:hover{
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #83f52c;
+
+}
+.ad_1 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_1 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.ad_2 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_2 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.ad_3 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_3 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.raw_2 img{
+    margin-left: 4rem;
+    margin-top: -20rem;
+    transition: 0.3s;
+}
+.raw_2 img:hover{
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #83f52c;
+
+}
+.ad_4 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_4 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.ad_5 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_5 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.raw_3 img{
+    margin-left: 4rem;
+    margin-top: 4rem;
+    transition: 0.3s;
+}
+.raw_3 img:hover{
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #83f52c;
+
+}
+.raw_4 img{
+    margin-left: 4rem;
+    margin-top: 4rem;
+    transition: 0.3s;
+    height: 322px;
+}
+.raw_4 img:hover{
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #83f52c;
+
+}
+.ad_7 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_7 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.ad_8 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_8 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.ad_9 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_9 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.raw_5 img:hover{
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #83f52c;
+
+}
+.ad_10 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_10 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.ad_11 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_11 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.ad_12 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_12 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.raw_6 img{
+    margin-left: 4rem;
+    width: 322px;
+    overflow: hidden;
+}
+.raw_6 img:hover{
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #83f52c;
+
+}
+.ad_13 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+
+}
+.ad_13 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.ad_14 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_14 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.raw_7 img{
+    margin-left: 4rem;
+    margin-top: 4rem;
+    transition: 0.3s;
+}
+.raw_7 img:hover{
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #83f52c;
+
+}
+.ad_15 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_15 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.ad_16 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_16 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.raw_8 img{
+    margin-left: 4rem;
+    margin-top: -18rem;
+    transition: 0.3s;
+}
+.raw_8 img:hover{
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #83f52c;
+
+}
+.ad_17 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_17 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.ad_18 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_18 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.raw_9 img{
+    margin-left: 4rem;
+    margin-top: 4rem;
+    transition: 0.3s;
+}
+.raw_9 img:hover{
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #83f52c;
+
+}
+.ad_19 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_19 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.ad_20 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_20 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.raw_10 img{
+    margin-left: 4rem;
+    margin-top: -18rem;
+    transition: 0.3s;
+}
+.raw_10 img:hover{
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #83f52c;
+
+}
+.ad_21 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_21 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
+.ad_22 p{
+    justify-content: center;
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    width: 20rem;
+}
+.ad_22 button{
+    align-content: center;
+    margin-left: 4rem;
+    margin-top: -3rem;
+}
